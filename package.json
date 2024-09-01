@@ -1,0 +1,27 @@
+{
+  "name": "koishi-plugin-booth-get",
+  "description": "通过url检查摊位并反馈用户搜索的图片",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "4.17.9"
+  },
+  "dependencies": {
+    "atsc": "^2.1.0",
+    "koishi-plugin-puppeteer": "^3.8.4",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^22.12.1"
+  }
+}
